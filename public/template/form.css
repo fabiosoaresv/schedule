@@ -60,8 +60,8 @@
     padding-top: 10px;
 }
 .smart-green select {
-    background: image-url('down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);
-    background: image-url('down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));
+    background: url('down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);
+    background: url('down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));
    appearance:none;
     -webkit-appearance:none;
    -moz-appearance: none;
@@ -70,18 +70,7 @@
     width:100%;
     height:30px;
 }
-.smart-green .button-back {
-    background-color: #FA8072;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-border-radius: 5px;
-    border: none;
-    padding: 14px 33px 14px 33px;
-    color: #FFF;
-    text-shadow: 1px 1px 1px #949494;
-}
-
-.smart-green .button-send {
+.smart-green .button {
     background-color: #9DC45F;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -91,7 +80,6 @@
     color: #FFF;
     text-shadow: 1px 1px 1px #949494;
 }
-
 .smart-green .button:hover {
     background-color:#80A24A;
 }
