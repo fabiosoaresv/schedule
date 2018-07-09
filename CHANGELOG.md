@@ -1,5 +1,6 @@
 v.1.0.0
 ## Funcionalidades
+* Ativado i18n no projeto
 * Adicionado has one para endereço nos contatos
 * Adicionado a taks para popular banco de dados
 * Adicionado dados nas seeds para testes
