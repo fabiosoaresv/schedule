@@ -1,5 +1,6 @@
 v.1.0.0
 ## Funcionalidades
+* Adicionado campo de seleção para os Estados
 * Ativado i18n no projeto
 * Adicionado has one para endereço nos contatos
 * Adicionado a taks para popular banco de dados
