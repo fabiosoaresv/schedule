@@ -1,5 +1,5 @@
 namespace :utils do
-  desc "Populas Banco de Dados"
+  desc "Popular Banco de Dados"
   task seed: :environment do
     puts "--- Gerando os tipos de contato (Kinds)... ---"
       Kind.create([{description: "Amigo"}, {description: "Contato"}, {description: "Comercial"}])
@@ -22,7 +22,7 @@ namespace :utils do
         email: Faker::Internet.email,
         kind: Kind.all.sample,
         # .sample pega um exemplo / amostra
-        rmk: Faker::Lorem.paragraph([1,2,3,4,5].sample)
+        rmk: LeroleroGenerator.sentence([1,2,3].sample)
       )
     end
     puts "Gerando os contatos com a gem Faker... [OK]"
