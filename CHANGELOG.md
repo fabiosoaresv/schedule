@@ -1,7 +1,5 @@
 v.1.0.0
 ## Funcionalidades
-* Adicionado paginação nas views
-* Adicionado nas views com lista colorida para melhor leitura
 * Adicionado campo de seleção para os Estados
 * Ativado i18n no projeto
 * Adicionado has one para endereço nos contatos
@@ -12,4 +10,5 @@ v.1.0.0
 * Criada a base de uma agenda
 
 ## Correções de bug
-* Corrigido vulnerabilidade rubyzip
+
+
