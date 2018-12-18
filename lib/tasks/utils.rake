@@ -16,7 +16,7 @@ namespace :utils do
     puts "Gerando os contatos (Contacts)... [OK]"
 
     puts "--- Gerando os contatos com a gem Faker... ---"
-    100.times do |i|
+    10.times do |i|
       Contact.create!(
         name: Faker::Name.name,
         email: Faker::Internet.email,
