@@ -24,8 +24,33 @@
     -webkit-border-radius: 5px 5px 0px 0px;
     -moz-border-radius: 5px 5px 0px 0px;
     border-bottom:1px solid #89AF4C;
-
 }
+
+.smart-green h2 {
+    font: 22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 20px 0px 20px 40px;
+    display: block;
+    margin: -30px -30px 10px -30px;
+    text-shadow: 1px 1px 1px #949494;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+}
+
+.smart-green a {
+    text-decoration: underline;
+    text-decoration: none;
+    color: inherit;
+}
+
+.smart-green ul {
+    list-style-type: circle;
+}
+
+.smart-green li {
+    padding-left: 16px;
+}
+
 .smart-green h1>span {
     display: block;
     font-size: 11px;
