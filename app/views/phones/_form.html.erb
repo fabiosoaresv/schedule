@@ -1,4 +1,4 @@
-<%= form_with(model: phone, local: true) do |form| %>
+<%= form_with(model: phone, local: true, html: { class: "smart-green" }) do |form| %>
   <% if phone.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(phone.errors.count, "error") %> prohibited this phone from being saved:</h2>

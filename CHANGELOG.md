@@ -1,3 +1,8 @@
+# PRÓXIMAS
+## Funcionalidades
+* Atualizado as views com o layout default
+* Atualizado a configuração de banco de dados para o Heroku
+
 v.1.0.0
 ## Funcionalidades
 * Adicionado campo de seleção para os Estados
